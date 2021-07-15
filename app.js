@@ -1,4 +1,4 @@
-var name = prompt("what is your name")
+/*var name = prompt("what is your name")
 
 alert("hey, wlecome in gift shop " + name )
 
@@ -22,4 +22,4 @@ document.write(
 }
 else{
   alert('we dont have this type')
-}
+}*/

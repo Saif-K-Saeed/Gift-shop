@@ -1,2 +1,2 @@
 # Gift-shop
-![wireFrame](1.png)
+!-- ![wireFrame](img/1.png) 
