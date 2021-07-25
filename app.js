@@ -1,12 +1,13 @@
+function wlecome(){
 var name = prompt("what is your name")
-
 alert("hey, wlecome in our Shop " + name )
+return wlecome;
+}
 
+
+
+function seaechType(){
 var type = prompt("input the type you wont to seaech for it  Him, Her or Baby?")
-
- while(type != "Him" && type != "Her" && type != "Baby") {
-   type = prompt(" please  you can only input Him , Her or Baby?")
- }
 
 var numberOfPic =prompt("How many times you wish see it")
  while(numberOfPic>7){
@@ -14,6 +15,9 @@ var numberOfPic =prompt("How many times you wish see it")
 
  }
 
+ while(type != "Him" && type != "Her" && type != "Baby") {
+   type = prompt(" please  you can only input Him , Her or Baby?")
+ }
 
 if(type == "Him"){
 
@@ -40,6 +44,7 @@ else if(type =="Baby"){
 + "<img  src='https://images.ctfassets.net/6m9bd13t776q/2NfQZpAV5p8fKPfAH2qQgi/0ce7322e46107dccacbe5feb942ecbaf/fauve-co-newborn-baby-gift-box-750x550.jpg?q=75' width='100' height='100'     />" + "</div>")
 }
 }
-else{
-  alert('we dont have this type')
-}
+return seaechType;
+ }
+wlecome();
+seaechType();
